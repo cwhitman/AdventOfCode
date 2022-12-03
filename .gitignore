@@ -48,5 +48,6 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
-# Session Token File
+# Session Token
+
 *sessionToken.txt
