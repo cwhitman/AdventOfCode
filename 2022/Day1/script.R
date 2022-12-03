@@ -1,3 +1,5 @@
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+source('../Utils/getInput.R')
 input = downLoadFile(1)
 
 calories = strtoi(strsplit(trimws(input),"\n")[[1]])

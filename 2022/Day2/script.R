@@ -1,3 +1,5 @@
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+source('../Utils/getInput.R')
 input = getInput(day=2)
 
 strategyGuide = strsplit(trimws(input),'\n')[[1]]
