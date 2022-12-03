@@ -1,4 +1,7 @@
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+source('../Utils/getInput.R')
 input = getInput(day=3)
+
 rucksacks = strsplit(input,"\n")[[1]]
 priorities = c(letters,LETTERS)
 
